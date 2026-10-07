@@ -1,19 +1,19 @@
 <div align="center">
 
-# PrintCraft-AppImage 🐧
+# PdfCraft-AppImage 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/PrintCraft-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/PrintCraft-AppImage/releases/latest)
-[![CI Build Status](https://github.com/pkgforge-dev/PrintCraft-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/PrintCraft-AppImage/releases/latest)
-[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/PrintCraft-AppImage)](https://github.com/pkgforge-dev/PrintCraft-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/PdfCraft-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/PdfCraft-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/PdfCraft-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/PdfCraft-AppImage/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/PdfCraft-AppImage)](https://github.com/pkgforge-dev/PdfCraft-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/storytold/printcraft/dcb00238896e418b357e6dd777ee35bad36f0b97/assets/app-icon/printcraft.svg" width="128" />
+  <img src="https://raw.githubusercontent.com/storytold/pdfcraft/d3db99818f533a531dbcd469b2ac71ba35c0d3ec/assets/app-icon/pdfcraft.svg" width="128" />
 </p>
 
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/PrintCraft-AppImage/releases/latest) | [Click here](https://github.com/storytold/printcraft) |
+| [Click here](https://github.com/pkgforge-dev/PdfCraft-AppImage/releases/latest) | [Click here](https://github.com/storytold/PdfCraft) |
 
 </div>
 
