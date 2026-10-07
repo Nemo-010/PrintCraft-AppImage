@@ -7,12 +7,12 @@ export ARCH
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export ICON=/usr/share/icons/hicolor/256x256/apps/ai.storyteller.printcraft.png
-export DESKTOP=/usr/share/applications/ai.storyteller.printcraft.desktop
+export ICON=/usr/share/icons/hicolor/256x256/apps/ai.storyteller.pdfcraft.png
+export DESKTOP=/usr/share/applications/ai.storyteller.pdfcraft.desktop
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/printcraft /usr/bin/printcraft-cli /usr/bin/zenity
+quick-sharun /usr/bin/pdfcraft /usr/bin/pdfcraft-cli /usr/bin/zenity
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage

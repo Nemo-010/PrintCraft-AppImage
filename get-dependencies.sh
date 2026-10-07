@@ -21,10 +21,10 @@ get-debloated-pkgs --add-opengl --prefer-nano
 make-aur-package zenity-rs-bin
 
 # If the application needs to be manually built that has to be done down here
-echo "Building printcraft..."
+echo "Building pdfcraft..."
 echo "---------------------------------------------------------------"
-git clone https://github.com/storytold/printcraft.git ./printcraft && (
-	cd ./printcraft
+git clone https://github.com/storytold/pdfcraft.git ./pdfcraft && (
+	cd ./pdfcraft
 
 	TAG=$(git tag --sort=-v:refname | grep -vi 'rc\|alpha\|beta' | head -1)
 	git checkout "$TAG"
@@ -32,9 +32,9 @@ git clone https://github.com/storytold/printcraft.git ./printcraft && (
 
 	cargo build --locked --release
 
-	cp -v ./target/release/printcraft ./target/release/printcraft-cli /usr/bin
-	chmod +x /usr/bin/printcraft /usr/bin/printcraft-cli
-	cp -v ./packaging/linux/ai.storyteller.printcraft.desktop /usr/share/applications
+	cp -v ./target/release/pdfcraft ./target/release/pdfcraft-cli /usr/bin
+	chmod +x /usr/bin/pdfcraft /usr/bin/pdfcraft-cli
+	cp -v ./packaging/linux/ai.storyteller.pdfcraft.desktop /usr/share/applications
 	mkdir -p /usr/share/icons
 	cp -rv ./assets/app-icon/hicolor /usr/share/icons
 )
